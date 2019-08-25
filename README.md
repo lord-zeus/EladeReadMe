@@ -2,7 +2,7 @@
 
 **Important note:** *Every ReST call should contain the Auth token header: `Authorization'.
 This would be used to authenticate and authorized the request.*
-### Base Uri: http://mynyx.unidevelopers.net/api/v1/
+### Base Uri: http://mynyx.unidevelopers.net/api/v1/ldlocator-services/
 ### Header:
 ```json
 {
