@@ -140,7 +140,7 @@ This would be used to authenticate and authorized the request.*
 
 {
     "grant_type": {"type": "string", "required": true},
-    "client_id": {"type": "boolean", "required": true},
+    "client_id": {"type": "integer", "required": true},
     "client_secret": {"type": "string", "required": true},
 }
 
