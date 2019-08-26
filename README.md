@@ -23,7 +23,7 @@ This would be used to authenticate and authorized the request.*
 
 ### Make Payment
 
-#### <a name="monetbil"></a>Make Payment
+#### <a name="placePayment"></a>Make Payment
 
 **URL** : `/placePayment`
 
