@@ -16,6 +16,7 @@ This would be used to authenticate and authorized the request.*
 - [MonetBill Service](#monetbil)
     - [Make Payment](#placePayment)
     - [Check Payment Status](#checkPayment) 
+    - [Get Auth Token](#oauthToken)
     
 
 
@@ -122,5 +123,36 @@ This would be used to authenticate and authorized the request.*
   "paymentId": [
     "The payment id field is required."
   ]
+}
+```
+
+
+
+# <a name="oauthToken"></a>OAuth Token 
+
+### Get Token
+
+**URL** : `http://mynyx.unidevelopers.net/oauth/token`
+
+**Method** : `POST`
+
+```json
+
+{
+    "grant_type": {"type": "string", "required": true},
+    "client_id": {"type": "boolean", "required": true},
+    "client_secret": {"type": "string", "required": true},
+}
+
+```
+
+**Data constraints** : 
+
+**Data Schema** :
+```json
+{
+  "grant_type": "Your Type of Client",  
+  "client_id": "Your Client Id",
+  "client_secret": "Your Client Secret Key "
 }
 ```
