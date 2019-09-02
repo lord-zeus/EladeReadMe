@@ -116,6 +116,67 @@ This would be used to authenticate and authorized the request.*
 }
 ```
 
+##### if Transaction is successful for MTN
+```json
+{
+  "paymentId": "19082420505121417268",
+  "message": "payment finish",
+  "transaction": {
+    "transaction_UUID": "19082420505121417268",
+    "created_date": "2019-08-24 20:52:52",
+    "start_time": "1566676251.8335",
+    "end_time": "1566676372.1951",
+    "msisdn": "my_phone_number",
+    "mobile_operator_name_short": "MTN",
+    "mobile_operator_name": "Mobile Telephone Network Cameroon Ltd",
+    "mobile_network_code": "01",
+    "mobile_operator_code": "CM_MTNMOBILEMONEY",
+    "mobile_country_code": "624",
+    "country_name": "CAMEROON",
+    "country_code": "237",
+    "country_iso": "CM",
+    "user": null,
+    "amount": "100",
+    "fee": "0",
+    "revenue": "97",
+    "currency": "XAF",
+    "status": "0",
+    "message": "Waiting time expired.",
+    "http_user_agent": "GuzzleHttp\/6.3.3 curl\/7.54.0 PHP\/7.1.23",
+    "device": "desktop",
+    "device_constructor": "Other",
+    "device_model": null,
+    "os": "Other",
+    "os_version": "",
+    "browser": "Other",
+    "browser_version": "",
+    "ip_address": "154.72.153.204",
+    "isp": "Camtel",
+    "isp_org": "CAMTEL Cidr additional IPv4 block",
+    "region_code": "SW",
+    "region_name": "South-West Region",
+    "localisation_string": "{\"as\":\"AS15964 Camtel\",\"city\":\"Buea\",\"country\":\"Cameroon\",\"countryCode\":\"CM\",\"isp\":\"Camtel\",\"lat\":4.1594,\"lon\":9.2367,\"org\":\"CAMTEL Cidr additional IPv4 block\",\"query\":\"154.72.153.204\",\"region\":\"SW\",\"regionName\":\"South-West Region\",\"status\":\"success\",\"timezone\":\"Africa\\\/Douala\",\"zip\":\"\"}",
+    "query_string": "{\"amount\":\"100\",\"phonenumber\":\"679320186\",\"service\":\"26NjQNYyWJczoHJZRK3r8zEI3fpb3J0H\"}",
+    "operator_transaction_id": null,
+    "return_url": null,
+    "notify_url": "",
+    "notify_method": "",
+    "notify": "0",
+    "item_ref": null,
+    "payment_ref": null,
+    "first_name": null,
+    "last_name": null,
+    "email": null,
+    "receipt_sent": "0",
+    "api_call": "1",
+    "testmode": "0",
+    "om_pay_token": null,
+    "om_notif_token": null,
+    "om_payment_url": null
+  }
+}
+```
+
 #### Sample Error Code: `422`
 #### SampleError Message: 
 ```json
